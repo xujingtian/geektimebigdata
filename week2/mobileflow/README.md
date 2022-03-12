@@ -20,19 +20,11 @@ windows环境下，cmd进入对应目录：
 
 > hadoop fs -mkdir /user/student5/xujingtian/week2/input 
 
-![](D:\99.dean_pc\08.geektime\13.大数据\03.code\week2\mobileflow\README.assets\image-20220312182203893.png)
-
 
 
 #### 将数据上传到HDFS
 
 > hadoop fs -put /home/student5/xujingtian/week2/HTTP_20130313143750.dat  /user/student5/xujingtian/week2/input
-
-
-
-![image-20220312182642970](D:\99.dean_pc\08.geektime\13.大数据\03.code\week2\mobileflow\README.assets\image-20220312182642970.png)
-
-
 
 
 
@@ -62,7 +54,7 @@ windows环境下，cmd进入对应目录：
 >
 > hadoop fs -cat /user/student5/xujingtian/week2/output/part-r-00000
 >
-> 22/03/12 18:43:28 INFO sasl.SaslDataTransferClient: SASL encryption trust check: localHostTrusted = false, remoteHostTrusted = false                                                       
+> 22/03/12 22:37:48 INFO sasl.SaslDataTransferClient: SASL encryption trust check: localHostTrusted = false, remoteHostTrusted = false                                                       
 >
 > 13726230503     2481    24681   27162                                                                                                                                                      
 >
@@ -72,5 +64,41 @@ windows环境下，cmd进入对应目录：
 >
 > 15920133257     3156    2936    6092                                                                                                                                                       
 >
-> 15989002119     1938    180     2118  
+> 15989002119     1938    180     2118                                                                                                                                                       
+>
+> 22/03/12 22:37:48 INFO sasl.SaslDataTransferClient: SASL encryption trust check: localHostTrusted = false, remoteHostTrusted = false                                                       
+>
+> 13480253104     180     180     360                                                                                                                                                        
+>
+> 13560436666     1116    954     2070                                                                                                                                                       
+>
+> 13602846565     1938    2910    4848                                                                                                                                                       
+>
+> 13660577991     6960    690     7650                                                                                                                                                       
+>
+> 13760778710     120     120     240                                                                                                                                                        
+>
+> 13826544101     264     0       264                                                                                                                                                        
+>
+> 13922314466     3008    3720    6728                                                                                                                                                       
+>
+> 13925057413     11058   48243   59301                                                                                                                                                      
+>
+> 13926251106     240     0       240                                                                                                                                                        
+>
+> 22/03/12 22:37:48 INFO sasl.SaslDataTransferClient: SASL encryption trust check: localHostTrusted = false, remoteHostTrusted = false                                                       
+>
+> 13502468823     7335    110349  117684                                                                                                                                                     
+>
+> 13560439658     2034    5892    7926                                                                                                                                                       
+>
+> 13719199419     240     0       240                                                                                                                                                        
+>
+> 15013685858     3659    3538    7197                                                                                                                                                       
+>
+> 18211575961     1527    2106    3633                                                                                                                                                       
+>
+> 18320173382     9531    2412    11943                                                                                                                                                      
+>
+> 84138413        4116    1432    5548  
 
