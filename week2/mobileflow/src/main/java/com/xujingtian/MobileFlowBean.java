@@ -1,4 +1,4 @@
-package com.zhanghui;
+package com.xujingtian;
 
 import java.io.DataInput;
 import java.io.DataOutput;
